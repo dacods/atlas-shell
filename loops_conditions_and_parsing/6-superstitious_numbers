@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #This prints number 1-20 with a while loop using a case statment to display other items.
-counter=0
+counter=1
 while [ $counter -le 20 ]; do
 	echo $counter
 
