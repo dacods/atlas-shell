@@ -2,7 +2,7 @@
 #This will display the current dirctory in a list format using for loop
 for file in *; do
     if [[ ! $file == .* ]]; then
-	   name_part=$(echo "file" | cut-d'-' -f2-)
+	   name_part=$(echo "$file" | cut-d'-' -f2-)
 	   echo "$name_part"
     fi	
 done
