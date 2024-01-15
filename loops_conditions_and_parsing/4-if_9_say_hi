@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#This if stament will print "Hi" after the 9th "Best School"
+counter=1
+while [[ $counter -le 10 ]]; do
+	echo "Best School"
+
+	if [[ $counter -eq 9 ]];		
+		then
+			echo "Hi"
+		fi
+		(( counter+=1 ))
+done
